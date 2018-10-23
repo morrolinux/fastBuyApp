@@ -1,0 +1,19 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="info.androidhive.recyclerviewsearch.MainActivity">
+
+    <item
+        android:id="@+id/action_load_db"
+        android:checkable="false"
+        android:checked="true"
+        android:title="Load from file"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_save_db"
+        android:checkable="false"
+        android:checked="true"
+        android:title="Save to file"
+        app:showAsAction="never" />
+</menu>
